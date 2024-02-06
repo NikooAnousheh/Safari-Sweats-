@@ -265,3 +265,107 @@ hr.orange{
  
 
 }
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 1rem;
+  }
+
+
+.box1{
+  width: 250px;
+  height: 250px;
+  background-color: #e06e27;
+  margin: 5rem auto;
+  border-radius: 1rem;
+  transition: all 0.5s ease;
+}
+
+.box1:hover {
+    transform: perspective(400px) rotateX(45deg);  
+    user-select: none;
+    cursor: wait;
+    cursor: pointer;
+    cursor: auto;
+}
+    
+
+
+ #num1{
+    background-image: url("https://www.ambriona.com/cdn/shop/files/10_edb57877-7587-4740-89eb-dad74ef2edd8_180x@2x.png?v=1691131574");
+    background-position: center;
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+  
+
+#num2{
+    background-image: url("https://www.ambriona.com/cdn/shop/files/14_d9d9d205-2d15-49ad-b12a-9b85993dcd5b_180x@2x.png?v=1691131574");
+    background-position: center;
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+  
+
+#num3{
+    background-image: url("https://www.ambriona.com/cdn/shop/files/11_64b1c0ba-5db9-4e57-b6e8-5affd6c60bed_180x@2x.png?v=1691131572");
+    background-position: center;
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+  
+
+.box2{
+    width: 250px;
+    height: 250px;
+    background-color: #0a8e4e;;
+    margin: 5rem auto;
+    border-radius: 1rem;
+    transition: all 0.5s ease;
+ }
+  
+
+.box2:hover {
+    transform: perspective(400px) rotateX(45deg);  
+    user-select: none;
+    cursor: wait;
+    cursor: pointer;
+    cursor: auto;
+ }
+
+  #num4{
+    background-image: url("https://www.ambriona.com/cdn/shop/files/9_545e1246-6e8a-4845-b228-f8471e864031_180x@2x.png?v=1691131574");
+    background-position: center;
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+#num5{
+    background-image: url("https://www.ambriona.com/cdn/shop/files/13_a149225d-e900-4210-90d0-3b3eb5346654_180x@2x.png?v=1691131573");
+    background-position: center;
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+
+#num6{
+    background-image: url("https://www.ambriona.com/cdn/shop/files/12_aac06654-18de-4893-801a-98e8fa118181_180x@2x.png?v=1691131574");
+    background-position: center;
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+h3.hmotto{
+    font-family: 'Protest Riot', sans-serif !important;
+    text-align: center;
+    color: #cb0505;
+}
