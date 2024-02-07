@@ -21,7 +21,7 @@ header {
   background-color: #312a23;
   padding: 20px;
   text-align: center;
-  position: sticky;
+  /* position: sticky; */
   top: 0;
   padding: 1rem;
   z-index: 1;
