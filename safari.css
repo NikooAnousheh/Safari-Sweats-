@@ -1,12 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+
 body{
     background-color: #f1f1f1;
 }
 
 header {
-    background-color: #f1f1f1;
-    padding: 20px;
-    text-align: center;
+  background-color: #312a23;
+  padding: 20px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  padding: 1rem;
+  z-index: 1;
 }
+
 
 @media (max-width: 630px) {
     .navbar-expand-lg {
@@ -368,4 +388,104 @@ h3.hmotto{
     font-family: 'Protest Riot', sans-serif !important;
     text-align: center;
     color: #cb0505;
+}
+
+
+h1.pfont{
+  font-family: 'Poppins', sans-serif !important;
+  color:#0076c5;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+
+.form-label{
+  font-family: 'Poppins', sans-serif !important;
+  color:#2d95da;
+
+}
+
+#contact{
+padding: 1rem;
+}
+
+
+footer {
+background-color: #21323b;
+padding: 30px;
+text-align: center;
+}
+
+footer p {
+margin-bottom: 10px;
+font-family: 'Philosopher', sans-serif;
+font-size: 1.5rem;
+color: #d2e4ed;
+
+
+
+}
+
+
+footer a {
+color: #1a5350f2;
+text-decoration: none;
+transition: color 0.3s;
+}
+:hover { 
+color: #ccc;
+} 
+
+footer>h2{
+font-family: 'DM Sans', sans-serif;
+color: #00aaff;
+font-size: 4rem;
+margin-bottom: 2rem;
+
+}
+
+
+.social-media {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.social-media a {
+margin: 0 10px;
+font-size: 2rem;
+color: #333;
+text-decoration: none;
+}
+
+p.copyright{
+font-size: 13px;
+padding: 10px;
+text-align: left;
+font-family: 'DM Sans', sans-serif !important;
+}
+
+
+.links-icons{
+width: auto;
+height: auto;
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 16vh;
+}
+
+footer a{
+background-color: #2c2828;
+padding: 10px;
+border-radius: 50%;
+}
+
+i{
+color: rgb(0, 170, 255);
+}
+
+a:hover i{
+color: blue;
+transform: scale(1.4);
 }
