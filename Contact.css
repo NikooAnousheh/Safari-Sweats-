@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  body{
+      background-color: #312a23;
+  
+  }
+
+
+
+
+
+ h4{
+    font-family: 'Philosopher', sans-serif;
+    color: #db8344;
+    text-align: center;
+ 
+}
+
+hr {
+    border: none;
+    width: 100%;
+    color: transparent;
+    border-bottom: 4px solid #d67c07;
+    height: 9px;
+    margin: 1em 0;
+  }
+
+
+
+h2 {
+    font-family: 'Cinzel Decorative', serif;
+    color: #c7431e;
+    text-align: center;
+}
+
+
+h1.pfont{
+    font-family: 'Poppins', sans-serif !important;
+    color:#0076c5;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
+.form-label{
+    font-family: 'Poppins', sans-serif !important;
+    color:#2d95da;
+
+}
+
+#contact{
+  padding: 1rem;
+}
