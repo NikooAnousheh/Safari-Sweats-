@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+body{
+    background-color: #312a23;
+
+}
+
+
+
+
+ h4{
+    font-family: 'Philosopher', sans-serif;
+    color: #db8344;
+    text-align: center;
+ 
+}
+
+hr {
+    border: none;
+    width: 100%;
+    color: transparent;
+    border-bottom: 4px solid #d67c07;
+    height: 9px;
+    margin: 1em 0;
+  }
+
+
+
+h2 {
+    font-family: 'Cinzel Decorative', serif;
+    color: #c7431e;
+    text-align: center;
+}
+
+footer {
+    background-color: #21323b;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin-bottom: 10px;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 1.5rem;
+    color: #d2e4ed;
+  
+  
+  
+  }
+  
+  
+  footer a {
+    color: #1a5350f2;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  footer>h2{
+    font-family: 'DM Sans', sans-serif;
+    color: #00aaff;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+  
+  }
+  
+  
+  .social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-media a {
+    margin: 0 10px;
+    font-size: 2rem;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  p.copyright{
+    font-size: 13px;
+    padding: 10px;
+    text-align: left;
+    font-family: 'DM Sans', sans-serif !important;
+  }
+  
+  
+  .links-icons{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 16vh;
+  }
+  
+  footer a{
+    background-color: #2c2828;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  
+  i{
+    color: rgb(0, 170, 255);
+  }
+  
+  a:hover i{
+    color: blue;
+    transform: scale(1.4);
+  }
